@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="https://raw.githubusercontent.com/kyleparrott/libudev/master/libudev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>libudev</name>
+  <summary>libudev</summary>
+  <package-implementation package="libudev"/>
+  <package-implementation distributions="Arch" package="libudev"/>
+    <group arch="Linux-*">
+        <implementation id="sha1=4af649e081798c7036c5fa7bf742dc2dcfb78635" version="0.76">
+            <archive href="https://raw.githubusercontent.com/kyleparrott/libudev/master/libudev.so.0.zip" size="61779"/>
+        </implementation>
+    </group>
+</interface>
+<!-- Base64 Signature
+iQIcBAABCgAGBQJX9p2UAAoJEJzS+Pb4kyScgxAP/3cn6ZDKzNo9o42NaMLxamT5tOmDRFIXL4Sc
+LFijI4vNugjynh3nCJpF0t/PiIWpCyCAZ2Bn6T0bKCVZjqwodMfX5YWaY8sgGGnA6WUCSyePXl2G
+6etCGkY0UhXRaBHZtq/x217VtpZuOME4OuFEn0Dj2BrOpcU3NWDV8NF+ju2nA4YPmsIx/H5Hj1Lp
+Kq3r0ypbDXIOmQB5YRS2g4c8aMSWpMiMud5mcY2zAii9vrq5ivA9d5tqBV2lkej3Qt6D1bk0I0dJ
+7AGf2llXzCf7/Kbaa12dXMZXsfpxFtLgrpzKnAQYMlf173TbuPeT9tei+B9tg68QW47wUaWOSwpH
+wTjWY0x0gNNfe+hRFe1qLTjRT/oYlbwB/d6u6OMqw/GkFvvXVwH0RdhO4QbpofqRyEKkxKRB8eFX
+38/r7pNuGxeiKUKFoH/aOuy0ckjqV+eBFKwyW5IHqiSDwAi5osmu7xh++UpYjvZXDyNGe+2FDsRX
+omac208S1aZzkAUUOpa2rJpG0Z+JRnrBRZkjLCeRuD47KxpSORJSkbjJBc7nJUGASYH/AkwsVhmt
+Ftvm5Nwvp6tK/OZ0SWqAxjKSLBSRZ5JO+RK1CP0GPAiXatmaOJfvH/p2mCT2V1xaRO7GRulHycF7
+6xLk3zMPiER6hhHRpfXC7GsaZ0wVdP92NGCkMxxC
+
+-->
